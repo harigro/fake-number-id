@@ -2,6 +2,24 @@
 Membuat validasi dengan memasukan angka ke formulir inputan tentunya memakan waktu yang tidak sedikit, karena itulah aku membuat pustakan ini untuk mempermudah validasi dan tentunya mempercepat pengembangan aplikasi.\
 Jalankan **main.py** di terminal dengan baris perintah **python main.py**
 
+## Instalasi
+```
+pip install fake-number-id
+```
+
+## Pengujian
+program untuk menguji apakah pustaka berjalan atau terjadi kutu program
+```python
+from fake_number_id import indosat, telepon, layanan_operator
+
+nomor = telepon(indosat.EMPAT_BELAS)
+ll = layanan_operator(indosat.EMPAT_BELAS)
+
+if __name__ == '__main__':
+    print(nomor)
+    print(ll)
+```
+
 ## Konstanta
 Selain indosat juga terdapat beberapa operator di indonesia yang tersedia di pustaka ini
 ```
