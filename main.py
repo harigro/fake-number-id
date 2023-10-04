@@ -1,4 +1,4 @@
-from nomor_gsm import indosat, telepon, layanan_operator
+from fake_numberphone_id import indosat, telepon, layanan_operator
 
 
 nomor = telepon(indosat.EMPAT_BELAS)
