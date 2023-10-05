@@ -1,10 +1,13 @@
 # fake-number-id
-Membuat validasi dengan memasukan angka ke formulir inputan tentunya memakan waktu yang tidak sedikit, karena itulah aku membuat pustakan ini untuk mempermudah validasi dan tentunya mempercepat pengembangan aplikasi.\
-Jalankan **main.py** di terminal dengan baris perintah **python main.py**
+Membuat validasi dengan memasukan angka ke formulir inputan tentunya memakan waktu yang tidak sedikit, karena itulah aku membuat pustakan ini untuk mempermudah validasi dan tentunya mempercepat pengembangan aplikasi.
 
 ## Instalasi
 ```
 pip install fake-number-id
+```
+atau kamu bisa kunjungi situs resmi pypi
+```
+https://pypi.org/project/fake-number-id
 ```
 
 ## Pengujian
