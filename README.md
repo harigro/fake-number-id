@@ -88,7 +88,8 @@ print(palsu)
 ```
 
 ## Penyedia Layanan
-fungsi **layanan_operator(parameter)** memberitahukan nama operator berdasarkan parameter konstanta penyedia layanan\
+fungsi **layanan_operator(parameter)** memberitahukan nama operator\
+beserta nomor prefiksnya berdasarkan parameter konstanta penyedia layanan\
 contoh pengguan layanan_operator(parameter) :
 ```python
 palsu = layanan_operator(smartfren.DELAPAN_SATU)
